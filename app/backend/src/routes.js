@@ -18,6 +18,6 @@ routes.post('/incidents', IncidentController.create)
 routes.delete('/incidents/:id', IncidentController.delete)
 
 
-routes.get('/profiles', ProfileController.index)
+routes.get('/profile', ProfileController.index)
 
 module.exports = routes
